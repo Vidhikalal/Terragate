@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/Terragatelogo.jpeg"
+            src="/Terragatelogo.png"
             alt="Terragate Global Logo"
             width={48}
             height={48}
