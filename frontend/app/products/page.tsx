@@ -38,9 +38,9 @@ export default function ProductsPage() {
   return (
     <>
       {/* HERO */}
-      <div className="relative h-[50vh]">
+      <div className="relative h-[40vh]">
         <Image
-          src="/hero-2.jpg"
+          src="/hero2.jpeg"
           alt="Products hero"
           fill
           className="object-cover"
@@ -63,7 +63,7 @@ export default function ProductsPage() {
               key={p.title}
               className="glass card-hover overflow-hidden rounded-2xl"
             >
-              <div className="relative h-52">
+              <div className="relative h-56 w-full">
                 <Image
                   src={p.img}
                   alt={p.title}
