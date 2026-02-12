@@ -24,9 +24,6 @@ export default function Hero() {
 
           <h1 className="mt-5 text-4xl font-extrabold tracking-tight md:text-6xl">
             {site.name}
-            <span className="block text-yellow-300">
-              Import & Export Company
-            </span>
           </h1>
 
           <p className="mt-5 text-base leading-relaxed text-white/70 md:text-lg">

@@ -12,13 +12,13 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/logo.png"
+            src="/Terragatelogo.jpeg"
             alt="Terragate Global Logo"
             width={48}
             height={48}
             className="mb-3"
           />
-          <div className="h-8 w-8 rounded bg-yellow-400/90" />
+
           <div className="leading-tight">
             <div className="text-sm font-semibold">{site.name}</div>
             <div className="text-xs text-white/60">{site.tagline}</div>

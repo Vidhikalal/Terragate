@@ -1,5 +1,5 @@
 export const site = {
-  name: "Terragate Global",
+  name: "Terragate Global Exim",
   tagline: "Your Gateway To International Markets",
   description:
     "Trusted merchant exporter from India delivering high-quality agro products, fresh produce, sanitary ware, and surgical supplies to global markets.",
