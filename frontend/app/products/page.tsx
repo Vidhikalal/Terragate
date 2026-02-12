@@ -63,7 +63,7 @@ export default function ProductsPage() {
               key={p.title}
               className="glass card-hover overflow-hidden rounded-2xl"
             >
-              <div className="relative h-56 w-full">
+              <div className="relative h-52 ">
                 <Image
                   src={p.img}
                   alt={p.title}
