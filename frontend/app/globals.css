@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+:root {
+  --bg: 10 12 18;        /* deep navy */
+  --card: 17 22 34;      /* slate/navy */
+  --muted: 148 163 184;  /* slate text */
+  --text: 226 232 240;   /* near-white */
+  --primary: 56 189 248; /* cyan */
+  --accent: 45 212 191;  /* teal */
+}
+
+body {
+  background: rgb(var(--bg));
+  color: rgb(var(--text));
+}
+
+.bg-aurora {
+  background:
+    radial-gradient(1200px circle at 10% 10%, rgba(56,189,248,.18), transparent 45%),
+    radial-gradient(900px circle at 90% 25%, rgba(45,212,191,.14), transparent 40%),
+    radial-gradient(800px circle at 55% 95%, rgba(99,102,241,.12), transparent 45%);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+.card-hover {
+  transition: transform .2s ease, border-color .2s ease, background .2s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  border-color: rgba(56,189,248,.25);
+  background: rgba(255,255,255,.06);
+}
